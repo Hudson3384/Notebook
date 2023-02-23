@@ -4,7 +4,7 @@
 
 <img src="https://img.vivaolinux.com.br/imagens/artigos/comunidade/Artigo_01.jpg" align="left" style="width: 100%;">
 
-## Comandos
+### Comandos
 
 _Sistemas de arquivos_
 
@@ -42,7 +42,7 @@ _Sistemas de arquivos_
   ln -s test link
   ```
   
-  ### Comandos de compactação 
+### Comandos de compactação 
 
 tar -> responsável pela compactação de arquivos no linux (.tar)
 
@@ -130,3 +130,10 @@ touch jorge-{amado,aragão)
   - gzip -> compacta os arquivos em gz
   - gunzip -> descompacta
 
+=======
+#adiciona items ao arquivo .tar 
+```
+
+```bash
+tar -tvf 
+```
