@@ -75,12 +75,19 @@ Reatribuir variável EDITOR
 com o editor less 
 - !número do comando no histórico -> Executa o comando 
 - !! executa o  último comando 
+- CTRL + R -> reverse search 
 ```BASH 
     pacman -S office-cracked-pkg 
     sudo !! // sudo pacman -S windows 
+```
+
 ### MOVIMENTOS NO COMANDO 
 
 - CTRL + A Vai pro início da linha de comando 
 - CTRL + D  Apaga um caractere 
 - CTRL + F Pula um caractere 
+
+### PROCESSOS
+
+- top -> mostra processos e valor em memória, cpu, swap e afins 
 
