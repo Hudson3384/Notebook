@@ -91,3 +91,37 @@ com o editor less
 
 - top -> mostra processos e valor em memória, cpu, swap e afins 
 
+
+### COMANDOS DE ENTRADA E SAIDA
+
+stdout => saida simb: >
+    para não sobreescrever: >>
+stdin => entrada simb: < 
+stderr => mostra um erro, pode criar um erro 
+
+### SHELL PARENT E SHELL CHILD
+
+usar comando ps -f pra visualizar processos do shell
+```BASH 
+    ps -f or ps --forest
+```
+
+Toda vez que eu instancio um bash ( ou zsh ) ou entro em um console via ssh, por exemplo, eu crio um sub-shell, tanto é que o exit n fechao terminal de primeira, como esperado. 
+
+### SORT 
+
+organiza items dentro de um arquivo, ou lista de items
+
+flags:
+
+-n -> organiza em ordem numérica
+-M -> ordem mensal 
+-t -> define o termo 
+
+### BASH HISTORY
+
+fica no arquivo .bash_history
+comando history mostra todos
+basta dar um espaço em branco antes da execução do comando pra ele n ficar no historico, no caso de senhas, config default in bashrc 
+
+
