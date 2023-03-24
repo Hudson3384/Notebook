@@ -87,6 +87,7 @@ com o editor less
 - CTRL + D  Apaga um caractere 
 - CTRL + F Pula um caractere 
 
+<<<<<<< HEAD
 ### PROCESSOS
 
 - top -> mostra processos e valor em memória, cpu, swap e afins 
@@ -123,5 +124,22 @@ flags:
 fica no arquivo .bash_history
 comando history mostra todos
 basta dar um espaço em branco antes da execução do comando pra ele n ficar no historico, no caso de senhas, config default in bashrc 
+=======
+### COMANDOS DE CONEXAO DE EXPANSAO
+
+
+Pipe | -> pega o output e considera como input de outro comando
+```BASH 
+  cat /etc/passwd | sort | less
+```
+
+; or & -> comandos sequenciais 
+```BASH 
+  sudo pacman -Syu ; sudo pacman -s tree
+```
+
+
+
+>>>>>>> 4fdc5e1 (:art: studies in work)
 
 
