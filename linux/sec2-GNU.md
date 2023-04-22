@@ -4,15 +4,50 @@
 
 <img src="https://img.vivaolinux.com.br/imagens/artigos/comunidade/Artigo_01.jpg" align="left">
 
-### Comandos
+## Comandos
 
-_Sistemas de arquivos_
+### Sistemas de arquivos
 
 - mount -> comando para ver distribuições das pastas 
+
 - df -Th -> mostra melhor o armazenamento em cada repositório 
+
 - findmnd -> Mesmo que o mount em forma 'tree'
 
-_Arquivos
+  
+
+### Localizando Arquivos
+
+- Locate -> Localizar arquivos por nome 
+
+  Pesquisa muito mais rápida, depende do comando updatedb porque atualiza apenas diariamente
+
+  Descontinuado no Arch Linux, instale mlocate 
+
+  - FInd -> Localiza arquivos eceita atributos :
+
+    ```bash
+    find $HOME -ls 
+    #procura no home e lista os diretórios 
+    ```
+
+    Podemos adicionar argumentos como:
+
+    ```bash
+    find /etc/ -iname passwd
+    ```
+
+    Pode incluir outros retornos 
+
+    ```bash
+    find /etc/ -iname passwd -exec echo "eu encontrei {}" \;
+    ```
+
+    
+
+### Arquivos
+
+- sudo su - -> ir para root user  
 
 - du * name * -> determina o tamanho do item
 
@@ -41,6 +76,26 @@ _Arquivos
   ```bash
   ln -s test link
   ```
+  
+  ### MetaCaracteres
+  
+  * '* '-> não importa o que antecede/descende 
+  
+  * ? -> Representa um caractere de qualquer tipo 
+  
+    [] -> Representa um grupo:
+  
+    ```bash
+    ls [a-n]*
+    ```
+  
+    - ' > ' -> Executa o output no comando/arquivo 
+  
+      ```bash
+      echo 'foo is bar' > text.txt
+      ```
+  
+      
   
   ### Comandos de compactação 
 
