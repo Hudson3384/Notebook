@@ -66,3 +66,20 @@ ciclo de instruções -> conjunto de instruções estabelecidos por um computado
 Hierarquia das memórias 
 
 <img src='https://jkolb.com.br/wp-content/uploads/2016/06/hierarquia-de-mem%C3%B3ria.png'></img>
+
+### Registradores   
+Armazenam dados que serão usados para cálculo de dados 
+
+memória RDM -> transferências externas 
+memória REM -> registrador de endereço 
+CI -> buscar próxima instrução  
+
+### Cache 
+
+Entre processador e memória
+
+
+-> Principio da localidade: 
+
+Temporal x Espacial 
+
